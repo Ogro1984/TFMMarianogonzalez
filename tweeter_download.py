@@ -6,10 +6,6 @@ import datetime
 import os
 
 
-# Set the proxy
-os.environ['http_proxy'] = 'http://10.83.196.52:80'
-os.environ['https_proxy'] = 'https://10.83.196.52:80'
-
 
 # Twitter API credentials
 consumer_key = "DMXPhnTOLE5jCu2hqEIziSjsf"
