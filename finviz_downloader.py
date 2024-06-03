@@ -53,3 +53,8 @@ for ticker in tickers:
 
         # Actualizar el documento en MongoDB si existe, si no existe, lo inserta
         collection.update_one({'link': article['link']}, {'$set': article}, upsert=True)
+
+
+
+
+
